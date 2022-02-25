@@ -1,5 +1,5 @@
 // route to get logged in user's info (needs the token)
-
+//query
 export const getMe = (token) => {
   return fetch('/api/users/me', {
     headers: {
@@ -8,6 +8,8 @@ export const getMe = (token) => {
     },
   });
 };
+
+//query
 
 export const createUser = (userData) => {
   return fetch('/api/users', {

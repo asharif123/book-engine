@@ -1,8 +1,9 @@
 import {gql} from '@apollo/client';
 //define get route
+//return data
 export const USER = gql`
   {
-    me {
+    getMe {
       _id
       username
       email
